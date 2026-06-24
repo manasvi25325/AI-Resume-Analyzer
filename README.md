@@ -20,11 +20,11 @@ skills and gives an ATS (Applicant Tracking System) match score.
 
 ## 📸 Screenshots
 #### Home Page
-![Home](screenshots/Home Page.png)
+![Home](screenshots/HomePage.png)
 #### Upload
 ![Upload](screenshots/Upload.png)
 #### Result
-![Result](screenshots/Result.png.png)
+![Result](screenshots/Result.png)
 
 
 ## Project Structure
