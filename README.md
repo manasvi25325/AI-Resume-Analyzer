@@ -19,11 +19,13 @@ skills and gives an ATS (Applicant Tracking System) match score.
 - **Server:** Uvicorn
 
 ## 📸 Screenshots
-#### Home Page
+### Home Page
 ![Home](screenshots/Homepage.png)
-#### Upload
+
+### Upload Page
 ![Upload](screenshots/Upload.png)
-#### Result
+
+### Result Page
 ![Result](screenshots/Result.png)
 
 
