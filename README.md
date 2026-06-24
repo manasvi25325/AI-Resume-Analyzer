@@ -18,6 +18,15 @@ skills and gives an ATS (Applicant Tracking System) match score.
 - **Database:** SQLite
 - **Server:** Uvicorn
 
+## 📸 Screenshots
+
+![Home](screenshots/HomePage.png)
+
+![Upload](screenshots/Upload.png)
+
+![Result](screenshots/Result.png.png)
+
+
 ## Project Structure
 
 ├── main.py            # FastAPI app and routes
