@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+
+<h1>Resume Analysis Result</h1>
+
+<h2>
+    ATS Score:
+    <span style="color: {{ score_color }}">
+        {{ ats_score }}%
+    </span>
+</h2>
+
+<h3>Skills Found</h3>
+
+<ul>
+    {% for skill in skills_found %}
+    <li>✅ {{ skill }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Missing Skills</h3>
+
+<ul>
+    {% for skill in missing_skills %}
+    <li>❌ {{ skill }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Suggestions</h3>
+
+<ul>
+    {% for suggestion in suggestions %}
+    <li>💡 {{ suggestion }}</li>
+    {% endfor %}
+</ul>
+
+<br>
+
+<a href="/">
+    <button>Analyze Another Resume</button>
+</a>
+
+
+</div>
+
+</body>
+</html>

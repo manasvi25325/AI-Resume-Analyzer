@@ -1,0 +1,6 @@
+echo venv/ > .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo uploads/ >> .gitignore
+echo resume_analyzer.db >> .gitignore
+echo .env >> .gitignore
